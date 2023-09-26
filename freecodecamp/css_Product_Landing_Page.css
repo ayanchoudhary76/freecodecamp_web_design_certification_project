@@ -1,0 +1,65 @@
+
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar {
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+#video {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+#form {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#email {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}

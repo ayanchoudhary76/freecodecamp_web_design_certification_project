@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_survey_form.css">
+    <!-- change the href attribute for link tag-->
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill out this survey form.</p>
+    </header>
+    <form id="survey-form" >
+        <div class="form-group">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="number" id="number-label">Age:</label>
+            <input type="number" id="number" name="age" placeholder="Enter your age" min="1" max="100" required>
+        </div>
+        <div class="form-group">
+            <label for="dropdown">Select Your Favorite Color:</label>
+            <select id="dropdown" name="color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Do you like programming?</label>
+            <input type="radio" id="programming-yes" name="programming" value="yes">
+            <label for="programming-yes">Yes</label>
+            <input type="radio" id="programming-no" name="programming" value="no">
+            <label for="programming-no">No</label>
+        </div>
+        <div class="form-group">
+            <label>Choose your favorite fruits:</label>
+            <input type="checkbox" id="apple" name="fruits" value="apple">
+            <label for="apple">Apple</label>
+            <input type="checkbox" id="banana" name="fruits" value="banana">
+            <label for="banana">Banana</label>
+            <input type="checkbox" id="orange" name="fruits" value="orange">
+            <label for="orange">Orange</label>
+        </div>
+        <div class="form-group">
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" placeholder="Enter your comments"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
